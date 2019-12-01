@@ -1,0 +1,62 @@
+<html>
+  <head>
+    <script src="drop.js"></script>
+    <link rel = "stylesheet" type = "text/css" href = "../Style.css" />
+    <script src="../highlight.js" ></script>
+    <script src="../ui.js" ></script>
+    <script src="enter.js"></script>
+  </head>
+  <body>
+    <input type="checkbox" id="menu" />
+<label for="menu" class="menu">
+<span></span>
+<span></span>
+<span></span>
+</label>
+
+<nav class="nav">
+<ul>
+  <li><a href="../index.html">Home</a></li>
+  <li><a href="../contact.html">Contact</a></li>
+  <li><a href="../wiki/index.html">Wiki</a></li>
+</ul>
+</nav>
+    <main style="background:gray;">
+      <header></header>
+      <section>
+        <div class="container">
+          <textarea id="enter"></textarea>
+          <div style="font-size:40;">Noun</div>
+          <x-drop id="n"></x-drop>
+          <div class="spacer"></div>
+          <div style="font-size:40;">Pronoun</div>
+          <x-drop id="pn"></x-drop>
+          <div class="spacer"></div>
+          <div style="font-size:40;">Verb</div>
+          <x-drop id="v"></x-drop>
+          <div class="spacer"></div>
+          <div style="font-size:40;">Adjective</div>
+          <x-drop id="adj"></x-drop>
+          <div class="spacer"></div>
+          <div style="font-size:40;">Article</div>
+          <x-drop id="art"></x-drop>
+          <div class="spacer"></div>
+          <div style="font-size:40;">Adverb</div>
+          <x-drop id="adv"></x-drop>
+          <div class="spacer"></div>
+          <div style="font-size:40;">Preposition</div>
+          <x-drop id="pre"></x-drop>
+          <div class="spacer"></div>
+          <div style="font-size:40;">Conjunction</div>
+          <x-drop id="c"></x-drop>
+          <div class="spacer"></div>
+          <div style="font-size:40;">Interjection</div>
+          <x-drop id="i"></x-drop>
+          <div class="spacer"></div>
+          <button class="button button5" id="send">Send</button>
+        </div>
+      </section>
+      <footer></footer>
+    </main>
+  </body>
+</html>
